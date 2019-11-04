@@ -2,10 +2,10 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /wpblog2019Dark/
+RewriteBase /wp-blog-2019-dark/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wpblog2019Dark/index.php [L]
+RewriteRule . /wp-blog-2019-dark/index.php [L]
 </IfModule>
 # END WordPress
